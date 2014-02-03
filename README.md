@@ -1,4 +1,4 @@
-cloud-to-butt
+Humdrum
 =============
 
 Chrome extension that replaces occurrences of over-hyped text with reasonable and demure text.
