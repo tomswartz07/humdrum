@@ -38,6 +38,8 @@ function handleText(textNode)
 	v = v.replace(/\bLiterally\b/g, "Figuratively");
 	v = v.replace(/\bamazing\b/g, "ordinary");
 	v = v.replace(/\bAmazing\b/g, "Ordinary");
+	v = v.replace(/\bHillary\b/g, "George");
+	v = v.replace(/\bTrump\b/g, "Duck");
 
 	textNode.nodeValue = v;
 }
